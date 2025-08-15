@@ -155,11 +155,6 @@ Les opérations suivantes ont été effectuées pour garantir des entrées propr
 \begin{itemize}
     \item \textbf{Conversion des timestamps} : transformation des horodatages en format temporel exploitable pour l’indexation et la synchronisation des données ;
     \item \textbf{Harmonisation des types de données} : conversion explicite des colonnes numériques et catégorielles dans des formats appropriés ;
-    \item \textbf{Gestion des valeurs manquantes} :
-    \begin{itemize}
-        \item suppression des enregistrements lorsque l’impact sur l’information est faible ;
-        \item imputation (moyenne, médiane, interpolation) lorsque la donnée est jugée essentielle.
-    \end{itemize}
 \end{itemize}
 
 \subsubsection{Normalisation des variables}
@@ -180,7 +175,7 @@ Afin de couvrir différentes approches d’apprent issage, trois modèles ont é
 
 \subsubsection{Perceptron Multicouche (MLP)}
 Le Perceptron Multicouche (\textit{Multi-Layer Perceptron}, MLP) a été implémenté à l’aide de la bibliothèque \texttt{scikit-learn}.  
-Ce réseau de neurones \textit{feedforward} est structuré comme suit :
+Ce réseau de neurones \textit{feedforward}~(l'information circule des neurones d'entrés vers les neurones de sortie, sans aucun retour ou boucle) est structuré comme suit :
 \begin{itemize}
     \item \textbf{Couche d’entrée} : reçoit les variables explicatives prétraitées ;
     \item \textbf{Couches cachées} : entre 4 et 16 neurones avec des fonctions d’activation non linéaires telles que \texttt{ReLU} ou \texttt{tanh} ;
@@ -188,18 +183,17 @@ Ce réseau de neurones \textit{feedforward} est structuré comme suit :
 \end{itemize}
 L’optimisation a été réalisée avec les solveurs \texttt{adam} (rapide et adaptatif) et \texttt{lbfgs} (plus stable pour petits ensembles de données).  
 Une recherche d’hyperparamètres (\texttt{GridSearchCV}) a été menée pour ajuster la profondeur, le taux d’apprentissage et la régularisation.  
-En raison du déséquilibre des classes, le paramètre \texttt{class\_weight='balanced'} a été activé.
 
 \subsubsection{Autoencodeur LSTM}
-L’Autoencodeur LSTM (\textit{Long Short-Term Memory Autoencoder}) a été développé avec \texttt{Keras/TensorFlow} afin d’exploiter les dépendances temporelles présentes dans les données microservices.
+L’Autoencodeur LSTM (\textit{Long Short-Term Memory Autoencoder}) a été développé avec \texttt{Keras/TensorFlow} afin d’exploiter les dépendances temporelles présentes dans les données des microservices.
 Ce modèle, de nature non supervisée, fonctionne en trois étapes :
 \begin{enumerate}
-    \item \textbf{Encodage} : une ou plusieurs couches LSTM (32 à 64 unités) compressent la séquence d’entrée dans une représentation latente compacte ;
+    \item \textbf{Encodage} : une ou plusieurs couches LSTM (16 à 32 unités) compressent la séquence d’entrée dans une représentation latente compacte ;
     \item \textbf{Décodage} : reconstruction de la séquence initiale à partir de cette représentation ;
     \item \textbf{Évaluation} : l’erreur de reconstruction est utilisée comme score d’anomalie, et un seuil empirique (déterminé sur un ensemble de validation) permet de classer l’observation.
 \end{enumerate}
 Les fonctions d’activation \texttt{tanh} et la perte \texttt{MSE} (\textit{Mean Squared Error}) ont été utilisées.  
-L’entraînement s’est déroulé uniquement sur des séquences normales, sur 20 à 50 époques, avec une taille de lot (\textit{batch size}) de 16 et l’optimiseur \texttt{Adam}.
+L’entraînement s’est déroulé uniquement sur des séquences normales, sur 10 à 15 époques, avec une taille de lot (\textit{batch size}) de 16 et l’optimiseur \texttt{Adam}. \textit{EarlyStopping} à été utilisé pour éviter le surapprentissage en surveillant la \texttt{validation loss}.
 
 \subsubsection{Modèle Hybride MLP + LSTM}
 Le modèle hybride combine deux sous-architectures :
@@ -208,7 +202,7 @@ Le modèle hybride combine deux sous-architectures :
     \item une \textbf{branche dense (MLP)} pour traiter les variables statiques ou dérivées ne possédant pas de structure temporelle.
 \end{itemize}
 Les sorties de ces deux branches sont concaténées, puis transmises à une couche dense finale avec activation \texttt{sigmoïde}.
-L’entraînement est réalisé sur 18 à 50 époques, avec un \texttt{dropout} compris entre 0,2 et 0,5 pour limiter le surapprentissage.
+L’entraînement est réalisé sur 10 à 15 époques, avec un \texttt{dropout} compris entre 0,2 et 0,5 pour limiter le surapprentissage.
 Ce type d’architecture permet de capturer simultanément :
 \begin{itemize}
     \item les \textbf{dynamiques temporelles} via la branche LSTM ;
@@ -294,6 +288,18 @@ Les hyperparamètres ont été ajustés via \texttt{GridSearchCV} pour maximiser
 % --------- MLP — NIVEAU SERVICE (images puis explications) ----------
 \paragraph{Niveau service.}
 
+\textbf{Résumé des métriques.}
+\begin{itemize}
+    \item Accuracy = 0{,}97 \quad
+          Precision = 0{,}97 \quad
+          Recall = 0{,}98 \quad
+          F1-score = 0{,}97
+\end{itemize}
+
+\textbf{Analyse.}
+La matrice (\textit{fig \ref{fig:mlp-service}.\subref{fig:mlp-svc-cm}}) montre très peu de faux positifs/négatifs, confirmant une excellente robustesse. 
+La courbe (\textit{fig \ref{fig:mlp-service}.\subref{fig:mlp-svc-loss}}) décroît rapidement puis se stabilise sans oscillations marquées, indiquant un apprentissage stable et un surajustement limité.
+
 \begin{figure}[!t]
   \centering
   \subfloat[Matrice de confusion]{%
@@ -307,18 +313,7 @@ Les hyperparamètres ont été ajustés via \texttt{GridSearchCV} pour maximiser
   \label{fig:mlp-service}
 \end{figure}
 
-\textbf{Résumé des métriques.}
-\begin{itemize}
-    \item Accuracy = 0{,}97 \quad
-          Precision = 0{,}97 \quad
-          Recall = 0{,}98 \quad
-          F1-score = 0{,}97
-\end{itemize}
-
-\textbf{Analyse.}
-La matrice (\textit{fig \ref{fig:mlp-service}.\subref{fig:mlp-svc-cm}}) montre très peu de faux positifs/négatifs, confirmant une excellente robustesse. 
-La courbe (\textit{fig \ref{fig:mlp-service}.\subref{fig:mlp-svc-loss}}) décroît rapidement puis se stabilise sans oscillations marquées, indiquant un apprentissage stable et un surajustement limité.
-
+\FloatBarrier
 % --------- MLP — NIVEAU APPLICATION (images puis explications) ----------
 \paragraph{Niveau application.}
 
@@ -350,7 +345,6 @@ Malgré une perte finale basse (\textit{fig \ref{fig:mlp-app}.\subref{fig:mlp-ap
 \paragraph{Lecture croisée.}
 Au \textbf{niveau service}, la granularité fine (latences spécifiques, distribution détaillée des codes HTTP, variabilité locale) fournit des signaux nets que le MLP sépare efficacement. 
 Au \textbf{niveau application}, l’agrégation dilue ces signaux et masque les anomalies locales ; le modèle apprend des motifs peu généralisables, expliquant le \textit{recall} très bas malgré une courbe de perte visuellement “propre”.
-
 
 \subsubsection{\textbf{Autoencodeur LSTM}}
 
@@ -452,7 +446,6 @@ La logique sous-jacente est que les métriques issues d’un environnement micro
 % --------- HYBRIDE — NIVEAU SERVICE (images puis explications) ----------
 \paragraph{Niveau service.}
 
-
 \textbf{Performances globales.}
 \begin{itemize}
     \item Accuracy = 0{,}91 \quad
@@ -464,6 +457,19 @@ La logique sous-jacente est que les métriques issues d’un environnement micro
 \textbf{Analyse.}
 La matrice (\textit{fig \ref{fig:hybrid-service}.\subref{fig:hyb-svc-cm}}) montre un \textbf{rappel élevé (97\,\%)} : les anomalies sont détectées presque intégralement.  
 Le volume de faux positifs est inférieur à celui du LSTM seul, ce qui suggère que la composante MLP filtre des fluctuations normales.
+\FloatBarrier
+\begin{figure}[!t]
+  \centering
+  \subfloat[Matrice de confusion]{%
+    \includegraphics[width=0.49\columnwidth]{confusion_matrix_hybrid_service.png}%
+    \label{fig:hyb-svc-cm}}%
+  \hfill%
+  \subfloat[Courbe d’apprentissage]{%
+    \includegraphics[width=0.49\columnwidth]{loss_curve_hybrid_service.png}%
+    \label{fig:hyb-svc-curve}}%
+  \caption{Modèle hybride — \textbf{niveau service}.}
+  \label{fig:hybrid-service}
+\end{figure}
 
 \textbf{Courbe d’apprentissage.}
 La courbe (\textit{fig \ref{fig:hybrid-service}.\subref{fig:hyb-svc-curve}}) présente une montée rapide puis une convergence stable, avec peu d’écart entraînement/validation — \emph{surapprentissage limité}.
@@ -473,6 +479,19 @@ Au niveau service, des signaux stables et structurés permettent au LSTM de capt
 
 % --------- HYBRIDE — NIVEAU APPLICATION (images puis explications) ----------
 \paragraph{Niveau application.}
+
+\begin{figure}[!t]
+  \centering
+  \subfloat[Matrice de confusion]{%
+    \includegraphics[width=0.49\columnwidth]{confusion_matrix_hybrid_application.png}%
+    \label{fig:hyb-app-cm}}%
+  \hfill%
+  \subfloat[Courbe d’apprentissage]{%
+    \includegraphics[width=0.49\columnwidth]{loss_curve_hybrid_application.png}%
+    \label{fig:hyb-app-curve}}%
+  \caption{Modèle hybride — \textbf{niveau application}.}
+  \label{fig:hybrid-app}
+\end{figure}
 
 \textbf{Performances globales.}
 \begin{itemize}
@@ -490,32 +509,6 @@ La courbe (\textit{fig \ref{fig:hybrid-app}.\subref{fig:hyb-app-curve}}) progres
 
 \textbf{Interprétation.}
 Au niveau application, l’agrégation dilue les signaux temporels et masque les anomalies locales : la composante LSTM perd en pertinence et le MLP, privé de variables distinctives, ne compense pas. Le gain de l’hybride n’apparaît que si les données contiennent des informations discriminantes suffisantes — ce qui est vrai au niveau service, beaucoup moins au niveau application.
-
-\begin{figure}[!t]
-  \centering
-  \subfloat[Matrice de confusion]{%
-    \includegraphics[width=0.49\columnwidth]{confusion_matrix_hybrid_service.png}%
-    \label{fig:hyb-svc-cm}}%
-  \hfill%
-  \subfloat[Courbe d’apprentissage]{%
-    \includegraphics[width=0.49\columnwidth]{loss_curve_hybrid_service.png}%
-    \label{fig:hyb-svc-curve}}%
-  \caption{Modèle hybride — \textbf{niveau service}.}
-  \label{fig:hybrid-service}
-\end{figure}
-
-\begin{figure}[!t]
-  \centering
-  \subfloat[Matrice de confusion]{%
-    \includegraphics[width=0.49\columnwidth]{confusion_matrix_hybrid_application.png}%
-    \label{fig:hyb-app-cm}}%
-  \hfill%
-  \subfloat[Courbe d’apprentissage]{%
-    \includegraphics[width=0.49\columnwidth]{loss_curve_hybrid_application.png}%
-    \label{fig:hyb-app-curve}}%
-  \caption{Modèle hybride — \textbf{niveau application}.}
-  \label{fig:hybrid-app}
-\end{figure}
 
 
 \subsubsection{Résumé comparatif et tendances}

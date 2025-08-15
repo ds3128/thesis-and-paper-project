@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex anomalies detections in microservice based application"] 1755275340.49541 "anomalies detections in microservice based application.aux" "anomalies detections in microservice based application.bbl" "anomalies detections in microservice based application" 1755275344.45133 0
+["bibtex anomalies detections in microservice based application"] 1755279722.57037 "anomalies detections in microservice based application.aux" "anomalies detections in microservice based application.bbl" "anomalies detections in microservice based application" 1755279756.82984 0
   "./references.bib" 1755274907 5212 a929b362309f6f266409ccf89736c66c ""
   "C:/Users/HFHT7011/AppData/Local/Programs/MiKTeX/bibtex/bst/ieeetran/IEEEtran.bst" 1440622569 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "anomalies detections in microservice based application.aux" 1755275343 11779 07c29956890363fafd02fe28774137ff "pdflatex"
+  "anomalies detections in microservice based application.aux" 1755279755 11779 2623d29ee69e04ea564bcc52006ff577 "pdflatex"
   (generated)
   "anomalies detections in microservice based application.bbl"
   "anomalies detections in microservice based application.blg"
   (rewritten before read)
-["pdflatex"] 1755275340.91018 "c:/Users/HFHT7011/thesis-and-paper-project/Proposal_paper_Darius_TEMGOUA/anomalies detections in microservice based application.tex" "anomalies detections in microservice based application.pdf" "anomalies detections in microservice based application" 1755275344.45308 0
+["pdflatex"] 1755279753.24236 "c:/Users/HFHT7011/thesis-and-paper-project/Proposal_paper_Darius_TEMGOUA/anomalies detections in microservice based application.tex" "anomalies detections in microservice based application.pdf" "anomalies detections in microservice based application" 1755279756.83113 0
   "C:/Users/HFHT7011/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1755264820 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/HFHT7011/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1755264704 13258752 a13e6b827adbf3729067317db2c15df4 ""
   "C:/Users/HFHT7011/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -125,11 +125,11 @@
   "C:/Users/HFHT7011/AppData/Local/Programs/MiKTeX/tex/latex/sttools/stfloats.sty" 1753373979 19135 2044f4970d2ece01df5d5dfacaaaec0f ""
   "C:/Users/HFHT7011/AppData/Local/Programs/MiKTeX/tex/latex/subfig/subfig.sty" 1121281010 22049 9ef165ca6df8815c92e693146a376c92 ""
   "C:/Users/HFHT7011/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "anomalies detections in microservice based application.aux" 1755275343 11779 07c29956890363fafd02fe28774137ff "pdflatex"
-  "anomalies detections in microservice based application.bbl" 1755275340 5361 43e1a70867c44e6f37e8be6c627ac403 "bibtex anomalies detections in microservice based application"
-  "anomalies detections in microservice based application.out" 1755275343 4643 7a725f23c9d11b10f7d7c2b2ddd72886 "pdflatex"
-  "anomalies detections in microservice based application.tex" 1755275336 41948 6eda5797f1844ab2d124eb87af90098d ""
-  "c:/Users/HFHT7011/thesis-and-paper-project/Proposal_paper_Darius_TEMGOUA/anomalies detections in microservice based application.tex" 1755275336 41948 6eda5797f1844ab2d124eb87af90098d ""
+  "anomalies detections in microservice based application.aux" 1755279755 11779 2623d29ee69e04ea564bcc52006ff577 "pdflatex"
+  "anomalies detections in microservice based application.bbl" 1755279722 5361 43e1a70867c44e6f37e8be6c627ac403 "bibtex anomalies detections in microservice based application"
+  "anomalies detections in microservice based application.out" 1755279755 4643 7a725f23c9d11b10f7d7c2b2ddd72886 "pdflatex"
+  "anomalies detections in microservice based application.tex" 1755279752 41795 285e9b8532685a253033f6891aff03a9 ""
+  "c:/Users/HFHT7011/thesis-and-paper-project/Proposal_paper_Darius_TEMGOUA/anomalies detections in microservice based application.tex" 1755279752 41795 285e9b8532685a253033f6891aff03a9 ""
   "images/confusion_matrix_hybrid_application.png" 1755262146 16618 d474b1214ae6e0c32f5066b623a960f1 ""
   "images/confusion_matrix_hybrid_service.png" 1755262146 17274 8a4c3eb5589b3a587255a74c3c4643bd ""
   "images/confusion_matrix_lstm_application.png" 1755262146 16892 6c754075f9e53347aa1a296c4889d88a ""
