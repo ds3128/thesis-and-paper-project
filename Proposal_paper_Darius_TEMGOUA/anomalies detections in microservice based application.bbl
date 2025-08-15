@@ -27,6 +27,15 @@ M.~A. Morais, ``Real-time incident detection in public bus systems using
   Intelligent Transportation Systems (ITSC)}.\hskip 1em plus 0.5em minus
   0.4em\relax IEEE, 2023.
 
+\bibitem{behera2023_model_of_anomalie}
+\BIBentryALTinterwordspacing
+A.~Behera, C.~R. Panigrahi, and R.~Patel, ``A comparative analysis of anomaly
+  detection from microservice generated unstructured logs,''
+  \emph{International Journal of Advanced Research in Computer Science},
+  vol.~14, no.~6, pp. 54--59, 2023. [Online]. Available:
+  \url{https://www.researchgate.net/publication/377448760}
+\BIBentrySTDinterwordspacing
+
 \bibitem{grambow2020}
 K.~Grambow and et~al., ``Using lstm autoencoders for anomaly detection in
   kubernetes,'' in \emph{IEEE International Conference on Cloud Engineering},
@@ -106,14 +115,5 @@ G.~Muruti, F.~A. Rahim, and Z.-A. bin Ibrahim, ``A survey on anomalies
   detection techniques and measurement methods,'' in \emph{2018 IEEE Conference
   on Applications, Information and Network Security (AINS)}.\hskip 1em plus
   0.5em minus 0.4em\relax IEEE, 2023.
-
-\bibitem{behera2023_model_of_anomalie}
-\BIBentryALTinterwordspacing
-A.~Behera, C.~R. Panigrahi, and R.~Patel, ``A comparative analysis of anomaly
-  detection from microservice generated unstructured logs,''
-  \emph{International Journal of Advanced Research in Computer Science},
-  vol.~14, no.~6, pp. 54--59, 2023. [Online]. Available:
-  \url{https://www.researchgate.net/publication/377448760}
-\BIBentrySTDinterwordspacing
 
 \end{thebibliography}

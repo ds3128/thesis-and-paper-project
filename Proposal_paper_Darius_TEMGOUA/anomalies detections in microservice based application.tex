@@ -72,16 +72,18 @@ La détection proactive d’anomalies revêt une importance stratégique : elle 
 
 Face à ces enjeux, l’apprentissage automatique (\textbf{machine learning}) s’impose comme une piste prometteuse. Ce travail explore une question centrale : \textbf{\textit{dans quelle mesure la complexité d’un modèle améliore-t-elle la détection d’anomalies dans un environnement microservices ?}} En particulier, \textit{les modèles avancés comme les autoencodeurs LSTM offrent-ils un avantage tangible par rapport à des approches plus simples telles que les perceptrons multicouches ?}
 
-L’objectif est de proposer une solution pratique et reproductible de détection d’anomalies adaptée aux environnements microservices, en comparant les performances de modèles de complexité variable à partir de données simulées réalistes, et en analysant l’impact de cette complexité sur la qualité de détection.
+L’objectif ici est de proposer une solution pratique et reproductible de détection d’anomalies adaptée aux environnements microservices, en comparant les performances de modèles de complexité variable à partir de données simulées réalistes, et en analysant l’impact de cette complexité sur la qualité de détection.
 
 % ===========================
 % RELATED WORKS
 % ===========================
 \section{Related Works}
-Plusieurs travaux de recherche récents ont proposé des approches innovantes pour la détection d’anomalies dans les systèmes microservices, en s’appuyant sur différents types de données et techniques d’apprentissage automatique.
+La détection d’anomalies dans les systèmes microservices est un domaine de recherche actif, ceci en raison de la complexité croissante des architectures distribuées et de la nécessité d’assurer leur résilience.
+Plusieurs travaux de recherche récents ont proposé des approches innovantes pour traiter les défis associés à l'oservabilité et à l'analyse des performances de ces systèmes, en s’appuyant sur différents types de données et techniques d’apprentissage automatique.
 
 \begin{itemize}
-\item Grambow et al. \cite{grambow2020} (2020) ont exploré l’utilisation d’un autoencodeur LSTM pour détecter des anomalies à partir des métriques de services dans des architectures Kubernetes. Leur étude a montré la pertinence des modèles séquentiels dans la capture des dépendances temporelles au sein des services.
+\item Behera et al. \cite{behera2023_model_of_anomalie} (2023) ont proposé une approche comparative pour la détection d'anomalies dans les journaux de log non structurés générés par des microservices, en utilisant trois méthodes non supervisées : \textbf{Isolation Forest (IF)}, \textbf{One-Class SVM (OC-SVM)} et \textbf{Local Outlier Factor (LOF)}. Les résultats expérimentaux montrent des précisions élevées (98\%-99\%) avec IF et LOF générant moins de faux positifs que OC-SVM, tandis que ce dernier se distingue par une sensibilité accrue aux anomalies isolées.
+\item Grambow et al. \cite{grambow2020} (2020) proposent une approche basée sur des modèles d'interaction abstraits pour le benchmarking des microservices, soulignant l'importance de la représentation des interactions au sein des systèmes distribués. Cependant, peu d'études exploitent les traces pour la détection d'anomalies de manière efficace. Certaines approches, comme celles de Wang et al. (2019), se concentrent sur la comparaison de traces pour détecter des anomalies, mais peuvent s'avérer coûteuses en termes de calcul et moins adaptées à des scénarios en temps réel.
 
 \item Bogatinovski et al. \cite{bogatinovski2020} (2020) ont proposé une méthode d’apprentissage auto-supervisée basée sur les traces distribuées. Leur approche encode les séquences d’appels de services pour construire une représentation latente, utilisée ensuite pour identifier les anomalies sans supervision explicite.
 
