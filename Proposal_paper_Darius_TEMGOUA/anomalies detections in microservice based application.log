@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.14)  15 AUG 2025 17:53
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.15)  15 AUG 2025 18:42
+>>>>>>> aacb9d088bee5d0c78cc94241a774788f21ba4e9
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -528,37 +532,37 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 [3]
-<images/confusion_matrix_mlp_service.png, id=158, 368.577pt x 284.0211pt>
+<images/confusion_matrix_mlp_service.png, id=162, 368.577pt x 284.0211pt>
 File: images/confusion_matrix_mlp_service.png Graphic file (type png)
 <use images/confusion_matrix_mlp_service.png>
-Package pdftex.def Info: images/confusion_matrix_mlp_service.png  used on input line 301.
+Package pdftex.def Info: images/confusion_matrix_mlp_service.png  used on input line 307.
 (pdftex.def)             Requested size: 123.48138pt x 95.15306pt.
-<images/loss_curve_mlp_service.png, id=160, 570.933pt x 281.853pt>
+<images/loss_curve_mlp_service.png, id=164, 570.933pt x 281.853pt>
 File: images/loss_curve_mlp_service.png Graphic file (type png)
 <use images/loss_curve_mlp_service.png>
-Package pdftex.def Info: images/loss_curve_mlp_service.png  used on input line 305.
+Package pdftex.def Info: images/loss_curve_mlp_service.png  used on input line 311.
 (pdftex.def)             Requested size: 123.48138pt x 60.95847pt.
 
 
 <images/confusion_matrix_mlp_application.png, id=165, 368.577pt x 284.0211pt>
 File: images/confusion_matrix_mlp_application.png Graphic file (type png)
 <use images/confusion_matrix_mlp_application.png>
-Package pdftex.def Info: images/confusion_matrix_mlp_application.png  used on input line 329.
+Package pdftex.def Info: images/confusion_matrix_mlp_application.png  used on input line 324.
 (pdftex.def)             Requested size: 123.48138pt x 95.15306pt.
 <images/loss_curve_mlp_application.png, id=166, 570.933pt x 281.853pt>
 File: images/loss_curve_mlp_application.png Graphic file (type png)
 <use images/loss_curve_mlp_application.png>
-Package pdftex.def Info: images/loss_curve_mlp_application.png  used on input line 333.
+Package pdftex.def Info: images/loss_curve_mlp_application.png  used on input line 328.
 (pdftex.def)             Requested size: 123.48138pt x 60.95847pt.
 <images/confusion_matrix_lstm_service.png, id=171, 406.1574pt x 281.853pt>
 File: images/confusion_matrix_lstm_service.png Graphic file (type png)
 <use images/confusion_matrix_lstm_service.png>
-Package pdftex.def Info: images/confusion_matrix_lstm_service.png  used on input line 368.
+Package pdftex.def Info: images/confusion_matrix_lstm_service.png  used on input line 362.
 (pdftex.def)             Requested size: 123.48138pt x 85.68764pt.
 <images/loss_curve_lstm_service.png, id=172, 426.393pt x 281.853pt>
 File: images/loss_curve_lstm_service.png Graphic file (type png)
 <use images/loss_curve_lstm_service.png>
-Package pdftex.def Info: images/loss_curve_lstm_service.png  used on input line 372.
+Package pdftex.def Info: images/loss_curve_lstm_service.png  used on input line 366.
 (pdftex.def)             Requested size: 123.48138pt x 81.62344pt.
 
 
@@ -566,43 +570,43 @@ Package pdftex.def Info: images/loss_curve_lstm_service.png  used on input line 
 <images/confusion_matrix_lstm_application.png, id=198, 406.1574pt x 281.853pt>
 File: images/confusion_matrix_lstm_application.png Graphic file (type png)
 <use images/confusion_matrix_lstm_application.png>
-Package pdftex.def Info: images/confusion_matrix_lstm_application.png  used on input line 408.
+Package pdftex.def Info: images/confusion_matrix_lstm_application.png  used on input line 402.
 (pdftex.def)             Requested size: 123.48138pt x 85.68764pt.
 <images/loss_curve_lstm_application.png, id=199, 426.393pt x 281.853pt>
 File: images/loss_curve_lstm_application.png Graphic file (type png)
 <use images/loss_curve_lstm_application.png>
-Package pdftex.def Info: images/loss_curve_lstm_application.png  used on input line 412.
+Package pdftex.def Info: images/loss_curve_lstm_application.png  used on input line 406.
 (pdftex.def)             Requested size: 123.48138pt x 81.62344pt.
 
 
-<images/confusion_matrix_hybrid_service.png, id=212, 406.1574pt x 281.853pt>
+<images/confusion_matrix_hybrid_service.png, id=206, 406.1574pt x 281.853pt>
 File: images/confusion_matrix_hybrid_service.png Graphic file (type png)
 <use images/confusion_matrix_hybrid_service.png>
-Package pdftex.def Info: images/confusion_matrix_hybrid_service.png  used on input line 498.
+Package pdftex.def Info: images/confusion_matrix_hybrid_service.png  used on input line 465.
 (pdftex.def)             Requested size: 123.48138pt x 85.68764pt.
-<images/loss_curve_hybrid_service.png, id=213, 505.89pt x 341.1144pt>
+<images/loss_curve_hybrid_service.png, id=207, 505.89pt x 341.1144pt>
 File: images/loss_curve_hybrid_service.png Graphic file (type png)
 <use images/loss_curve_hybrid_service.png>
-Package pdftex.def Info: images/loss_curve_hybrid_service.png  used on input line 502.
+Package pdftex.def Info: images/loss_curve_hybrid_service.png  used on input line 469.
 (pdftex.def)             Requested size: 123.48138pt x 83.25885pt.
-<images/confusion_matrix_hybrid_application.png, id=214, 406.1574pt x 281.853pt>
+<images/confusion_matrix_hybrid_application.png, id=210, 406.1574pt x 281.853pt>
 File: images/confusion_matrix_hybrid_application.png Graphic file (type png)
 <use images/confusion_matrix_hybrid_application.png>
-Package pdftex.def Info: images/confusion_matrix_hybrid_application.png  used on input line 511.
+Package pdftex.def Info: images/confusion_matrix_hybrid_application.png  used on input line 487.
 (pdftex.def)             Requested size: 123.48138pt x 85.68764pt.
-<images/loss_curve_hybrid_application.png, id=215, 505.89pt x 341.1144pt>
+<images/loss_curve_hybrid_application.png, id=211, 505.89pt x 341.1144pt>
 File: images/loss_curve_hybrid_application.png Graphic file (type png)
 <use images/loss_curve_hybrid_application.png>
-Package pdftex.def Info: images/loss_curve_hybrid_application.png  used on input line 515.
+Package pdftex.def Info: images/loss_curve_hybrid_application.png  used on input line 491.
 (pdftex.def)             Requested size: 123.48138pt x 83.25885pt.
 
 
-[5 <./images/confusion_matrix_lstm_service.png> <./images/loss_curve_lstm_service.png> <./images/confusion_matrix_lstm_application.png> <./images/loss_curve_lstm_application.png>]
+[5 <./images/confusion_matrix_lstm_service.png> <./images/loss_curve_lstm_service.png> <./images/confusion_matrix_lstm_application.png> <./images/loss_curve_lstm_application.png> <./images/confusion_matrix_hybrid_service.png> <./images/loss_curve_hybrid_service.png>]
 
 
 
-[6 <./images/confusion_matrix_hybrid_service.png> <./images/loss_curve_hybrid_service.png> <./images/confusion_matrix_hybrid_application.png> <./images/loss_curve_hybrid_application.png>]
-Underfull \hbox (badness 7151) in paragraph at lines 613--614
+[6 <./images/confusion_matrix_hybrid_application.png> <./images/loss_curve_hybrid_application.png>]
+Underfull \hbox (badness 7151) in paragraph at lines 606--607
 []\T1/ptm/m/n/10 (+20) Ce tra-vail a ex-ploré et com-paré trois ap-proches
  []
 
@@ -642,9 +646,15 @@ Here is how much of TeX's memory you used:
  43582 multiletter control sequences out of 15000+600000
  763728 words of font info for 423 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
+<<<<<<< HEAD
  75i,10n,79p,1131b,589s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/dariu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/dariu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/dariu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/dariu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/dariu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/dariu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/dariu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/dariu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/dariu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/dariu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/dariu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/dariu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
 Output written on "anomalies detections in microservice based application.pdf" (7 pages, 459078 bytes).
+=======
+ 75i,10n,79p,1126b,581s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/HFHT7011/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/HFHT7011/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/HFHT7011/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/HFHT7011/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/HFHT7011/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/HFHT7011/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/HFHT7011/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/HFHT7011/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/HFHT7011/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/HFHT7011/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/HFHT7011/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/HFHT7011/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on "anomalies detections in microservice based application.pdf" (7 pages, 458808 bytes).
+>>>>>>> aacb9d088bee5d0c78cc94241a774788f21ba4e9
 PDF statistics:
  355 PDF objects out of 1000 (max. 8388607)
  98 named destinations out of 1000 (max. 500000)
