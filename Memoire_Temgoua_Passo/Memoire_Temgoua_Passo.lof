@@ -1,0 +1,19 @@
+\babel@toc {french}{}\relax 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Comparaison entre une architecture monolithique et microservices.}}{5}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Description simplifié d'une architecture microservice.}}{6}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Cartographie des techniques de détections d'anomalies \cite {muruti2023_detectio_anomalies_generalite}.}}{9}{figure.caption.16}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Architecture fonctionnelle de mise en oeuvre}}{15}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Structure des colonnes principales du jeu de données aux niveaux service et application.}}{16}{figure.caption.33}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Matrice de confusion du MLP – niveau service.}}{22}{figure.caption.40}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Courbe de perte du MLP – niveau service.}}{22}{figure.caption.43}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Matrice de confusion – MLP niveau application.}}{23}{figure.caption.45}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Courbe de perte – MLP niveau application.}}{24}{figure.caption.47}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Matrice de confusion et courbe de perte – LSTM autoencodeur niveau service.}}{25}{figure.caption.51}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Résultats du LSTM autoencodeur – niveau application.}}{26}{figure.caption.56}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Matrice de confusion et courbe d’apprentissage – Modèle hybride, niveau service.}}{27}{figure.caption.61}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Matrice de confusion et courbe d’apprentissage – Modèle hybride, niveau application.}}{28}{figure.caption.67}%
+\addvspace {10\p@ }

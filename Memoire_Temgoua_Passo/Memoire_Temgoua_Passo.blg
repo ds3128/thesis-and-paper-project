@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Memoire_Temgoua_Passo.aux
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+The style file: apalike.bst
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+Database file #1: references.bib
+Warning--empty publisher in _defis_bares_garriga_2020
+Warning--empty journal in mohamed_yousffi_archi
+You've used 12 entries,
+            1935 wiz_defined-function locations,
+            540 strings with 6470 characters,
+and the built_in function-call counts, 5138 in all, are:
+= -- 486
+> -- 258
+< -- 9
++ -- 94
+- -- 90
+* -- 417
+:= -- 900
+add.period$ -- 39
+call.type$ -- 12
+change.case$ -- 104
+chr.to.int$ -- 12
+cite$ -- 14
+duplicate$ -- 207
+empty$ -- 342
+format.name$ -- 107
+if$ -- 1014
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 11
+newline$ -- 63
+num.names$ -- 36
+pop$ -- 115
+preamble$ -- 1
+purify$ -- 104
+quote$ -- 0
+skip$ -- 146
+stack$ -- 0
+substring$ -- 256
+swap$ -- 31
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 72
+warning$ -- 2
+while$ -- 35
+width$ -- 0
+write$ -- 157
+(There were 2 warnings)

@@ -1,0 +1,950 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.14)  14 AUG 2025 11:49
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**c:/Users/dariu/Downloads/Memoire_Temgoua_Passo/Memoire_Temgoua_Passo.tex
+(c:/Users/dariu/Downloads/Memoire_Temgoua_Passo/Memoire_Temgoua_Passo.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-07-20>
+(C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count275
+\c@chapter=\count276
+\c@section=\count277
+\c@subsection=\count278
+\c@subsubsection=\count279
+\c@paragraph=\count280
+\c@subparagraph=\count281
+\c@figure=\count282
+\c@table=\count283
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+) (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+) (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count284
+\Gm@cntv=\count285
+\c@Gm@tempcnt=\count286
+\Gm@bindingoffset=\dimen149
+\Gm@wd@mp=\dimen150
+\Gm@odd@mp=\dimen151
+\Gm@even@mp=\dimen152
+\Gm@layoutwidth=\dimen153
+\Gm@layoutheight=\dimen154
+\Gm@layouthoffset=\dimen155
+\Gm@layoutvoffset=\dimen156
+\Gm@dimlist=\toks18
+ (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks19
+\inpenc@posthook=\toks20
+) (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
+) (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip51
+\bibsep=\skip52
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count287
+) (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2025/08/03 v25.12 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
+\babel@savecnt=\count288
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2045.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2047.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2049.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line 2050.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2051.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2053.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2078.
+\U@D=\dimen157
+\l@unhyphenated=\language79
+ (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count289
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/generic/babel-french\french.ldf
+Language: french 2025-07-25 v4.0d French support from the babel system
+ (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/fr\babel-french.tex
+Package babel Info: Importing font and identification data for french
+(babel)             from babel-fr.ini. Reported on input line 12.
+) (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/generic/babel-french\french3.ldf
+Language: french 2025-07-25 v3.7d French support from the babel system
+\FB@stdchar=\count290
+Package babel Info: Making : an active character on input line 273.
+Package babel Info: Making ; an active character on input line 274.
+Package babel Info: Making ! an active character on input line 275.
+Package babel Info: Making ? an active character on input line 276.
+\FBguill@level=\count291
+\FBold@everypar=\toks21
+\FB@Mht=\dimen158
+\mc@charclass=\count292
+\mc@charfam=\count293
+\mc@charslot=\count294
+\std@mcc=\count295
+\dec@mcc=\count296
+\FB@pardim=\dimen159
+\listindentFB=\dimen160
+\descindentFB=\dimen161
+\labelindentFB=\dimen162
+\labelwidthFB=\dimen163
+\leftmarginFB=\dimen164
+\parindentFFN=\dimen165
+\FBfnindent=\dimen166
+))) (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.sty) (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+ (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen167
+\Gin@req@width=\dimen168
+) (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2025/06/16 v2.17y AMS math features
+\@mathmargin=\skip53
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+ (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks22
+\ex@=\dimen169
+)) (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen170
+) (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count297
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count298
+\leftroot@=\count299
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count300
+\DOTSCASE@=\count301
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen171
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count302
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count303
+\dotsspace@=\muskip17
+\c@parentequation=\count304
+\dspbrk@lvl=\count305
+\tag@help=\toks23
+\row@=\count306
+\column@=\count307
+\maxfields@=\count308
+\andhelp@=\toks24
+\eqnshift@=\dimen172
+\alignsep@=\dimen173
+\tagshift@=\dimen174
+\tagwidth@=\dimen175
+\totwidth@=\dimen176
+\lineht@=\dimen177
+\@envbody=\toks25
+\multlinegap=\skip54
+\multlinetaggap=\skip55
+\mathdisplay@stack=\toks26
+LaTeX Info: Redefining \[ on input line 2949.
+LaTeX Info: Redefining \] on input line 2950.
+) (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
+ (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+ (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+) (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)) (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
+ (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count309
+) (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count310
+) (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+\@linkdim=\dimen178
+\Hy@linkcounter=\count311
+\Hy@pagecounter=\count312
+ (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count313
+ (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4195.
+Package hyperref Info: Link nesting OFF on input line 4200.
+Package hyperref Info: Hyper index ON on input line 4203.
+Package hyperref Info: Plain pages OFF on input line 4210.
+Package hyperref Info: Backreferencing OFF on input line 4215.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4462.
+\c@Hy@tempcnt=\count314
+ (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4801.
+\XeTeXLinkMargin=\dimen179
+ (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count315
+\Field@Width=\dimen180
+\Fld@charsize=\dimen181
+Package hyperref Info: Hyper figures OFF on input line 6078.
+Package hyperref Info: Link nesting OFF on input line 6083.
+Package hyperref Info: Hyper index ON on input line 6086.
+Package hyperref Info: backreferencing OFF on input line 6093.
+Package hyperref Info: Link coloring OFF on input line 6098.
+Package hyperref Info: Link coloring with OCG OFF on input line 6103.
+Package hyperref Info: PDF/A mode OFF on input line 6108.
+\Hy@abspage=\count316
+\c@Item=\count317
+\c@Hfootnote=\count318
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
+\Fld@listcount=\count319
+\c@bookmark@seq@number=\count320
+ (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+ (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
+)
+\Hy@SectionHShift=\skip56
+) (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count321
+\float@exts=\toks27
+\float@box=\box55
+\@float@everytoks=\toks28
+\@floatcapt=\box56
+) (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen182
+\captionmargin=\dimen183
+\caption@leftmargin=\dimen184
+\caption@rightmargin=\dimen185
+\caption@width=\dimen186
+\caption@indent=\dimen187
+\caption@parindent=\dimen188
+\caption@hangindent=\dimen189
+Package caption Info: Standard document class detected.
+Package caption Info: french babel package is loaded.
+)
+\c@caption@flags=\count322
+\c@continuedfloat=\count323
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+) (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/newunicodechar\newunicodechar.sty
+Package: newunicodechar 2018/04/08 v1.2 Defining Unicode characters
+) (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+\f@nch@headwidth=\skip57
+\f@nch@offset@elh=\skip58
+\f@nch@offset@erh=\skip59
+\f@nch@offset@olh=\skip60
+\f@nch@offset@orh=\skip61
+\f@nch@offset@elf=\skip62
+\f@nch@offset@erf=\skip63
+\f@nch@offset@olf=\skip64
+\f@nch@offset@orf=\skip65
+\f@nch@height=\skip66
+\f@nch@footalignment=\skip67
+\f@nch@widthL=\skip68
+\f@nch@widthC=\skip69
+\f@nch@widthR=\skip70
+\@temptokenb=\toks29
+) (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+ (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count324
+\lst@gtempboxa=\box57
+\lst@token=\toks30
+\lst@length=\count325
+\lst@currlwidth=\dimen190
+\lst@column=\count326
+\lst@pos=\count327
+\lst@lostspace=\dimen191
+\lst@width=\dimen192
+\lst@newlines=\count328
+\lst@lineno=\count329
+\lst@maxwidth=\dimen193
+ (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
+File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
+) (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+\c@lstnumber=\count330
+\lst@skipnumbers=\count331
+\lst@framebox=\box58
+) (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2024/09/23 1.10c listings configuration
+))
+Package: listings 2024/09/23 1.10c (Carsten Heinz)
+ (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
+Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
+\csq@reset=\count332
+\csq@gtype=\count333
+\csq@glevel=\count334
+\csq@qlevel=\count335
+\csq@maxlvl=\count336
+\csq@tshold=\count337
+\csq@ltx@everypar=\toks31
+ (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
+File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+ (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg
+File: csquotes.cfg 
+)) (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/titling\titling.sty
+Package: titling 2009/09/04 v2.1d maketitle typesetting
+\thanksmarkwidth=\skip71
+\thanksmargin=\skip72
+\droptitle=\skip73
+)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'french'.
+ (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count338
+) (Memoire_Temgoua_Passo.aux
+Package babel Info: 'french' activates 'french' shorthands.
+(babel)             Reported on input line 11.
+)
+\openout1 = `Memoire_Temgoua_Passo.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=702.78308pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Info: Redefining \degres on input line 50.
+(C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count339
+\scratchdimen=\dimen194
+\scratchbox=\box59
+\nofMPsegments=\count340
+\nofMParguments=\count341
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count342
+\MPscratchDim=\dimen195
+\MPnumerator=\count343
+\makeMPintoPDFobject=\count344
+\everyMPtoPDFconversion=\toks33
+) (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package hyperref Info: Link coloring OFF on input line 50.
+ (Memoire_Temgoua_Passo.out) (Memoire_Temgoua_Passo.out)
+\@outlinefile=\write3
+\openout3 = `Memoire_Temgoua_Passo.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count345
+<images/logo_uy1.png, id=179, 278.54062pt x 361.35pt>
+File: images/logo_uy1.png Graphic file (type png)
+<use images/logo_uy1.png>
+Package pdftex.def Info: images/logo_uy1.png  used on input line 59.
+(pdftex.def)             Requested size: 113.81102pt x 147.64168pt.
+
+
+[1
+
+{C:/Users/dariu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./images/logo_uy1.png>]
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.102 \cleardoublepage
+                       [1
+
+
+]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 114.
+ (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 114.
+ (C:\Users\dariu\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+[2
+
+
+]
+
+[3
+
+
+]
+
+[4
+
+
+] (Memoire_Temgoua_Passo.toc
+
+[5
+
+])
+\tf@toc=\write4
+\openout4 = `Memoire_Temgoua_Passo.toc'.
+
+
+
+Package babel Info: 'french' activates 'french' shorthands.
+(babel)             Reported on input line 182.
+[6] (Memoire_Temgoua_Passo.lof)
+\tf@lof=\write5
+\openout5 = `Memoire_Temgoua_Passo.lof'.
+
+
+
+[7
+
+] (Memoire_Temgoua_Passo.lot)
+\tf@lot=\write6
+\openout6 = `Memoire_Temgoua_Passo.lot'.
+
+
+
+[8
+
+]
+Chapitre 1.
+
+
+[1
+
+
+]
+
+[2]
+
+[3]
+Chapitre 2.
+<images/microservices_vs_monolith.png, id=330, 853.1875pt x 521.95pt>
+File: images/microservices_vs_monolith.png Graphic file (type png)
+<use images/microservices_vs_monolith.png>
+Package pdftex.def Info: images/microservices_vs_monolith.png  used on input line 248.
+(pdftex.def)             Requested size: 273.14923pt x 167.10704pt.
+
+
+[4
+
+]
+
+[5 <./images/microservices_vs_monolith.png>]
+<images/representaton_architecturale_ms.png, id=348, 963.6pt x 542.025pt>
+File: images/representaton_architecturale_ms.png Graphic file (type png)
+<use images/representaton_architecturale_ms.png>
+Package pdftex.def Info: images/representaton_architecturale_ms.png  used on input line 274.
+(pdftex.def)             Requested size: 273.14923pt x 153.64339pt.
+
+
+[6 <./images/representaton_architecturale_ms.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 293--294
+
+ []
+
+
+
+[7]
+<images/anomalies_detections_technics.png, id=364, 708.39656pt x 545.78906pt>
+File: images/anomalies_detections_technics.png Graphic file (type png)
+<use images/anomalies_detections_technics.png>
+Package pdftex.def Info: images/anomalies_detections_technics.png  used on input line 341.
+(pdftex.def)             Requested size: 364.19667pt x 280.60564pt.
+
+
+[8]
+
+[9 <./images/anomalies_detections_technics.png>]
+
+[10]
+Overfull \hbox (10.50818pt too wide) in paragraph at lines 438--442
+ []\T1/cmr/bx/n/12 Approches non su-per-vi-sées[] \T1/cmr/m/n/12 Très uti-li-sées car il est rare de dis-po-ser de la-bels. Exemples :
+ []
+
+
+
+[11]
+Overfull \hbox (0.84947pt too wide) in paragraph at lines 455--456
+[]\T1/cmr/m/n/12 Bogatinovski et al. (2020) ont pro-posé une mé-thode d'ap-pren-tis-sage auto-supervisée
+ []
+
+
+
+[12]
+Underfull \hbox (badness 2229) in paragraph at lines 478--478
+[]\T1/cmr/m/n/12 Grambow et al.
+ []
+
+
+Underfull \hbox (badness 2096) in paragraph at lines 478--478
+[]\T1/cmr/m/n/12 Métriques sys-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 478--478
+[]\T1/cmr/m/n/12 Autoencodeur
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 478--479
+[]\T1/cmr/m/n/12 Sensible au choix
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 480--480
+[]\T1/cmr/m/n/12 Bogatinovski et
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 480--480
+[]\T1/cmr/m/n/12 Traces dis-tri-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 480--480
+[]\T1/cmr/m/n/12 Auto-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 480--480
+\T1/cmr/m/n/12 supervision,
+ []
+
+
+Underfull \hbox (badness 2600) in paragraph at lines 480--480
+[]\T1/cmr/m/n/12 Pas be-soin d'éti-
+ []
+
+
+Underfull \hbox (badness 4416) in paragraph at lines 480--480
+\T1/cmr/m/n/12 quettes ; gé-né-ra-li-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 480--481
+\T1/cmr/m/n/12 teux, com-plexité
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
+[]\T1/cmr/m/n/12 Waseem et al.
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 482--483
+[]\T1/cmr/m/n/12 Prétraitement des
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 484--484
+[]\T1/cmr/m/n/12 Nobre et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 484--484
+[]\T1/cmr/m/n/12 Métriques in-
+ []
+
+
+Underfull \hbox (badness 4940) in paragraph at lines 484--484
+\T1/cmr/m/n/12 sur jeux syn-thé-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 486--486
+[]\T1/cmr/m/n/12 Métriques
+ []
+
+
+Underfull \hbox (badness 7291) in paragraph at lines 486--486
+[]\T1/cmr/m/n/12 Haute sen-si-bi-lité,
+ []
+
+
+Underfull \hbox (badness 5985) in paragraph at lines 486--487
+[]\T1/cmr/m/n/12 Difficulté de gé-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 486--487
+\T1/cmr/m/n/12 né-ra-li-sa-tion à
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 486--487
+\T1/cmr/m/n/12 d'autres pla-te-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 488--488
+[]\T1/cmr/m/n/12 Traces dis-tri-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 488--488
+[]\T1/cmr/m/n/12 Apprentissage
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 488--488
+[]\T1/cmr/m/n/12 Détection temps
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 488--489
+[]\T1/cmr/m/n/12 Complexité de
+ []
+
+
+Overfull \hbox (54.30904pt too wide) in paragraph at lines 474--491
+ [][] 
+ []
+
+
+
+[13]
+Chapitre 3.
+
+
+[14
+
+]
+<images/general_architure.png, id=429, 439.6425pt x 634.62094pt>
+File: images/general_architure.png Graphic file (type png)
+<use images/general_architure.png>
+Package pdftex.def Info: images/general_architure.png  used on input line 548.
+(pdftex.def)             Requested size: 227.62206pt x 328.56194pt.
+
+
+[15 <./images/general_architure.png>]
+<images/dataset_schema.png, id=436, 417.81094pt x 240.14719pt>
+File: images/dataset_schema.png Graphic file (type png)
+<use images/dataset_schema.png>
+Package pdftex.def Info: images/dataset_schema.png  used on input line 572.
+(pdftex.def)             Requested size: 341.43307pt x 196.2587pt.
+
+
+[16 <./images/dataset_schema.png>]
+
+[17]
+
+[18]
+
+[19]
+
+[20]
+Chapitre 4.
+<images/confusion_matrix_mlp_service.png, id=472, 368.577pt x 284.0211pt>
+File: images/confusion_matrix_mlp_service.png Graphic file (type png)
+<use images/confusion_matrix_mlp_service.png>
+Package pdftex.def Info: images/confusion_matrix_mlp_service.png  used on input line 740.
+(pdftex.def)             Requested size: 295.90588pt x 228.0276pt.
+
+
+[21
+
+]
+<images/loss_curve_mlp_service.png, id=478, 570.933pt x 281.853pt>
+File: images/loss_curve_mlp_service.png Graphic file (type png)
+<use images/loss_curve_mlp_service.png>
+Package pdftex.def Info: images/loss_curve_mlp_service.png  used on input line 750.
+(pdftex.def)             Requested size: 341.43307pt x 168.5626pt.
+
+
+[22 <./images/confusion_matrix_mlp_service.png> <./images/loss_curve_mlp_service.png>]
+<images/confusion_matrix_mlp_application.png, id=489, 368.577pt x 284.0211pt>
+File: images/confusion_matrix_mlp_application.png Graphic file (type png)
+<use images/confusion_matrix_mlp_application.png>
+Package pdftex.def Info: images/confusion_matrix_mlp_application.png  used on input line 775.
+(pdftex.def)             Requested size: 341.43307pt x 263.10977pt.
+
+
+[23 <./images/confusion_matrix_mlp_application.png>]
+<images/loss_curve_mlp_application.png, id=499, 570.933pt x 281.853pt>
+File: images/loss_curve_mlp_application.png Graphic file (type png)
+<use images/loss_curve_mlp_application.png>
+Package pdftex.def Info: images/loss_curve_mlp_application.png  used on input line 784.
+(pdftex.def)             Requested size: 341.43307pt x 168.5626pt.
+
+
+[24 <./images/loss_curve_mlp_application.png>]
+<images/confusion_matrix_lstm_service.png, id=510, 406.1574pt x 281.853pt>
+File: images/confusion_matrix_lstm_service.png Graphic file (type png)
+<use images/confusion_matrix_lstm_service.png>
+Package pdftex.def Info: images/confusion_matrix_lstm_service.png  used on input line 825.
+(pdftex.def)             Requested size: 218.51521pt x 151.63495pt.
+<images/loss_curve_lstm_service.png, id=511, 426.393pt x 281.853pt>
+File: images/loss_curve_lstm_service.png Graphic file (type png)
+<use images/loss_curve_lstm_service.png>
+Package pdftex.def Info: images/loss_curve_lstm_service.png  used on input line 826.
+(pdftex.def)             Requested size: 218.51521pt x 144.43983pt.
+
+
+[25 <./images/confusion_matrix_lstm_service.png> <./images/loss_curve_lstm_service.png>]
+<images/confusion_matrix_lstm_application.png, id=522, 406.1574pt x 281.853pt>
+File: images/confusion_matrix_lstm_application.png Graphic file (type png)
+<use images/confusion_matrix_lstm_application.png>
+Package pdftex.def Info: images/confusion_matrix_lstm_application.png  used on input line 859.
+(pdftex.def)             Requested size: 218.51521pt x 151.63495pt.
+<images/loss_curve_lstm_application.png, id=523, 426.393pt x 281.853pt>
+File: images/loss_curve_lstm_application.png Graphic file (type png)
+<use images/loss_curve_lstm_application.png>
+Package pdftex.def Info: images/loss_curve_lstm_application.png  used on input line 860.
+(pdftex.def)             Requested size: 218.51521pt x 144.43983pt.
+
+
+[26 <./images/confusion_matrix_lstm_application.png> <./images/loss_curve_lstm_application.png>]
+<images/confusion_matrix_hybrid_service.png, id=538, 406.1574pt x 281.853pt>
+File: images/confusion_matrix_hybrid_service.png Graphic file (type png)
+<use images/confusion_matrix_hybrid_service.png>
+Package pdftex.def Info: images/confusion_matrix_hybrid_service.png  used on input line 896.
+(pdftex.def)             Requested size: 218.51521pt x 151.63495pt.
+<images/loss_curve_hybrid_service.png, id=539, 505.89pt x 341.1144pt>
+File: images/loss_curve_hybrid_service.png Graphic file (type png)
+<use images/loss_curve_hybrid_service.png>
+Package pdftex.def Info: images/loss_curve_hybrid_service.png  used on input line 897.
+(pdftex.def)             Requested size: 218.51521pt x 147.34256pt.
+
+
+[27 <./images/confusion_matrix_hybrid_service.png> <./images/loss_curve_hybrid_service.png>]
+<images/confusion_matrix_hybrid_application.png, id=550, 406.1574pt x 281.853pt>
+File: images/confusion_matrix_hybrid_application.png Graphic file (type png)
+<use images/confusion_matrix_hybrid_application.png>
+Package pdftex.def Info: images/confusion_matrix_hybrid_application.png  used on input line 931.
+(pdftex.def)             Requested size: 218.51521pt x 151.63495pt.
+<images/loss_curve_hybrid_application.png, id=551, 505.89pt x 341.1144pt>
+File: images/loss_curve_hybrid_application.png Graphic file (type png)
+<use images/loss_curve_hybrid_application.png>
+Package pdftex.def Info: images/loss_curve_hybrid_application.png  used on input line 932.
+(pdftex.def)             Requested size: 218.51521pt x 147.34256pt.
+
+
+[28 <./images/confusion_matrix_hybrid_application.png> <./images/loss_curve_hybrid_application.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 960--961
+
+ []
+
+
+
+[29]
+
+[30]
+
+[31]
+
+[32]
+
+[33]
+Chapitre 5.
+
+Overfull \hbox (4.67119pt too wide) in paragraph at lines 1103--1104
+[]\T1/cmr/bx/n/12 Apport condi-tion-nel de la com-plexité \T1/cmr/m/n/12 : Le LSTM et le mo-dèle hy-bride montrent
+ []
+
+
+
+[34
+
+]
+Overfull \hbox (0.44872pt too wide) in paragraph at lines 1109--1110
+[]\T1/cmr/m/n/12 Une \T1/cmr/bx/n/12 ana-lyse com-pa-ra-tive ap-pro-fon-die \T1/cmr/m/n/12 de trois ar-chi-tec-tures de dé-tec-tion d'ano-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1120--1121
+
+ []
+
+(Memoire_Temgoua_Passo.bbl
+
+[35]
+
+[36
+
+])
+
+[37] (Memoire_Temgoua_Passo.aux)
+ ***********
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-07-20>
+ ***********
+Package rerunfilecheck Info: File `Memoire_Temgoua_Passo.out' has not changed.
+(rerunfilecheck)             Checksum: C053435933926D96B569F27FEF9815D9;8746.
+ ) 
+Here is how much of TeX's memory you used:
+ 17293 strings out of 468134
+ 280507 string characters out of 5430740
+ 711032 words of memory out of 5000000
+ 45477 multiletter control sequences out of 15000+600000
+ 644028 words of font info for 76 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 75i,13n,81p,1101b,771s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\dariu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\dariu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\dariu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1200.pk> <C:\Users\dariu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\dariu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\dariu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\dariu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\dariu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\dariu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\dariu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\dariu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\dariu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\dariu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk><C:/Users/dariu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/dariu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/dariu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/dariu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/dariu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/dariu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/dariu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Memoire_Temgoua_Passo.pdf (46 pages, 875914 bytes).
+PDF statistics:
+ 1322 PDF objects out of 1440 (max. 8388607)
+ 207 named destinations out of 1000 (max. 500000)
+ 443 words of extra memory for PDF output out of 10000 (max. 10000000)
+

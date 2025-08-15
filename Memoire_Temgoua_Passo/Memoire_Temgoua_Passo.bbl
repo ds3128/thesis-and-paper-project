@@ -1,0 +1,80 @@
+\begin{thebibliography}{}
+
+\bibitem[Baresi and Garriga, 2020]{_defis_bares_garriga_2020}
+Baresi, L. and Garriga, M. (2020).
+\newblock Microservices: The evolution and extinction of web services?
+\newblock In {\em Microservices: Science and Engineering}, pages 3--28.
+
+\bibitem[Behera et~al., 2023]{behera2023_model_of_anomalie}
+Behera, A., Panigrahi, C.~R., and Patel, R. (2023).
+\newblock A comparative analysis of anomaly detection from microservice
+  generated unstructured logs.
+\newblock {\em International Journal of Advanced Research in Computer Science},
+  14(6):54--59.
+
+\bibitem[Browndon, 2023]{kuimo_2023}
+Browndon, K. K.~C. (2023).
+\newblock Approche d'ingénierie dirigée par les modèles pour la conception,
+  la génération et l'orchestration des microservices.
+\newblock Master's thesis, Université de Yaoundé I, Yaoundé, Cameroun.
+\newblock Mémoire de Master Recherche en Informatique, Option Génie Logiciel
+  et Systèmes d'Informations.
+
+\bibitem[Chen et~al., 2020]{chen2020robust}
+Chen, Z. et~al. (2020).
+\newblock Robust anomaly detection for multivariate time series through
+  stochastic recurrent neural network.
+\newblock In {\em Proceedings of the 26th ACM SIGKDD}.
+
+\bibitem[de~Silva et~al., 2022]{silva2022_auto_encodeur}
+de~Silva, M., Mahadura, S., Daniel, S., Rupasinghe, L., Kumarapeli, M., and
+  Liyanapathirana, C. (2022).
+\newblock Anomaly detection in microservice systems using autoencoders.
+\newblock In {\em 2022 4th International Conference on Advancements in
+  Computing (ICAC)}, pages 488--493. IEEE.
+
+\bibitem[Giamattei et~al., 2024]{giamattei2024}
+Giamattei, L., Guerriero, A., Pietrantuono, R., Russo, S., Malavolta, I.,
+  Islam, T., Dînga, M., Koziolek, A., Singh, S., Armbruster, M.,
+  Gutierrez-Martinez, J.~M., Caro-Alvaro, S., Rodriguez, D., Weber, S., Henss,
+  J., Vogelin, E.~F., and Panojo, F.~S. (2024).
+\newblock Monitoring tools for devops and microservices: A systematic grey
+  literature review.
+\newblock {\em The Journal of Systems and Software}, 208:111906.
+
+\bibitem[Lewis and Fowler, 2014]{lewis_fowler_2014}
+Lewis, J. and Fowler, M. (2014).
+\newblock Microservices: A definition of this new architectural term.
+\newblock {\em Scientific Research}.
+
+\bibitem[Morais, 2023]{Morais2023_mttd_mttr}
+Morais, M.~A. (2023).
+\newblock Real-time incident detection in public bus systems using machine
+  learning.
+\newblock In {\em 2023 IEEE 26th International Conference on Intelligent
+  Transportation Systems (ITSC)}. IEEE.
+
+\bibitem[Muruti et~al., 2023]{muruti2023_detectio_anomalies_generalite}
+Muruti, G., Rahim, F.~A., and bin Ibrahim, Z.-A. (2023).
+\newblock A survey on anomalies detection techniques and measurement methods.
+\newblock In {\em 2018 IEEE Conference on Applications, Information and Network
+  Security (AINS)}. IEEE.
+
+\bibitem[Nobre et~al., 2023]{nobre2023}
+Nobre, J., Pires, E. J.~S., and Reis, A. (2023).
+\newblock Anomaly detection in microservice-based systems.
+\newblock {\em Applied Sciences}, 13(7891).
+
+\bibitem[Wizenty et~al., 2017]{_defis_wizenty_sorgalla_rademacher_sachweh_2017}
+Wizenty, P., Sorgalla, J., Rademacher, F., and Sachweh, S. (2017).
+\newblock Magma: Build management-based generation of microservice
+  infrastructures.
+\newblock In {\em Proceedings of the 11th European Conference on Software
+  Architecture: Companion Proceedings}, pages 61--65.
+
+\bibitem[Youssfi, 2022]{mohamed_yousffi_archi}
+Youssfi, M. (2022).
+\newblock Blog 1 : D'une architecture monolithique vers une architecture
+  micro-services.
+
+\end{thebibliography}

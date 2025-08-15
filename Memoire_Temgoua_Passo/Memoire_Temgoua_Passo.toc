@@ -1,0 +1,79 @@
+\babel@toc {french}{}\relax 
+\contentsline {chapter}{Dédicace}{i}{chapter*.2}%
+\contentsline {chapter}{Remerciements}{ii}{chapter*.4}%
+\contentsline {chapter}{Résumé}{iii}{chapter*.6}%
+\contentsline {chapter}{Abstract}{iv}{chapter*.8}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Contexte et motivation}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Intérêt socio-économique et pratique}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Problématique}{2}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Objectifs de recherche}{3}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Démarche méthodologique}{3}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Structure du document}{3}{section.1.6}%
+\contentsline {chapter}{\numberline {2}État de l’art}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Les architectures microservices}{4}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Origine}{4}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Définition et caractéristiques}{5}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Représentation Architecturale}{6}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Challenges et défis des microservices}{6}{subsection.2.1.4}%
+\contentsline {section}{\numberline {2.2}Surveillance et monitoring dans les systèmes distribués}{7}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Détection d’anomalies : généralités}{7}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Définitions et enjeux de la détection d’anomalies}{7}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Approches de détection d’anomalies}{8}{subsection.2.3.2}%
+\contentsline {paragraph}{Approches classiques}{8}{section*.14}%
+\contentsline {paragraph}{Approches par apprentissage automatique}{8}{section*.15}%
+\contentsline {subsection}{\numberline {2.3.3}Évaluation des performances : métriques essentielles}{9}{subsection.2.3.3}%
+\contentsline {subsubsection}{Matrice de confusion}{9}{section*.17}%
+\contentsline {subsubsection}{Accuracy}{10}{section*.18}%
+\contentsline {subsubsection}{Précision (Precision)}{10}{section*.19}%
+\contentsline {subsubsection}{Rappel (Recall ou Sensibilité)}{10}{section*.20}%
+\contentsline {subsubsection}{F1-score}{10}{section*.21}%
+\contentsline {section}{\numberline {2.4}Détection d’anomalies dans les systèmes à microservices}{11}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Spécificités des architectures microservices}{11}{subsection.2.4.1}%
+\contentsline {paragraph}{Défis spécifiques à la détection d’anomalies dans les microservices :}{11}{section*.22}%
+\contentsline {subsection}{\numberline {2.4.2}Types d’anomalies observées dans les microservices}{11}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Méthodes appliquées dans le contexte microservices}{11}{subsection.2.4.3}%
+\contentsline {paragraph}{Approches supervisées}{11}{section*.23}%
+\contentsline {paragraph}{Approches non supervisées}{12}{section*.24}%
+\contentsline {paragraph}{Approches hybrides}{12}{section*.25}%
+\contentsline {section}{\numberline {2.5}Travaux connexes}{12}{section.2.5}%
+\contentsline {chapter}{\numberline {3}Méthodologie}{14}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Présentation du jeu de données}{14}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Prétraitement des données}{16}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Environnement d’expérimentation}{17}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Description des modèles et configurations}{17}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Perceptron Multicouche (MLP)}{18}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Autoencodeur LSTM}{18}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Modèle Hybride MLP + LSTM}{19}{subsection.3.4.3}%
+\contentsline {section}{\numberline {3.5}Méthodes d’évaluation}{19}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Résultats et discussions}{21}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Résultats expérimentaux}{21}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Perceptron Multicouche (MLP)}{21}{subsection.4.1.1}%
+\contentsline {paragraph}{Analyse des métriques :}{22}{section*.41}%
+\contentsline {paragraph}{Analyse de la courbe de perte :}{22}{figure.caption.43}%
+\contentsline {paragraph}{Analyse des métriques :}{23}{section*.46}%
+\contentsline {paragraph}{Analyse de la courbe de perte :}{24}{section*.48}%
+\contentsline {paragraph}{Interprétation générale :}{24}{section*.49}%
+\contentsline {subsection}{\numberline {4.1.2}Autoencodeur LSTM}{25}{subsection.4.1.2}%
+\contentsline {paragraph}{Analyse des métriques :}{25}{section*.52}%
+\contentsline {paragraph}{Analyse de la courbe de perte :}{25}{section*.53}%
+\contentsline {paragraph}{Interprétation :}{26}{section*.54}%
+\contentsline {paragraph}{Analyse des métriques :}{26}{section*.57}%
+\contentsline {paragraph}{Analyse de la courbe de perte :}{26}{section*.58}%
+\contentsline {paragraph}{Interprétation :}{27}{section*.59}%
+\contentsline {subsection}{\numberline {4.1.3}Modèle hybride LSTM + MLP}{27}{subsection.4.1.3}%
+\contentsline {paragraph}{Performances globales :}{27}{section*.62}%
+\contentsline {paragraph}{Analyse de la matrice de confusion :}{28}{section*.63}%
+\contentsline {paragraph}{Analyse de la courbe d’apprentissage :}{28}{section*.64}%
+\contentsline {paragraph}{Interprétation :}{28}{section*.65}%
+\contentsline {paragraph}{Performances globales :}{28}{section*.68}%
+\contentsline {paragraph}{Analyse de la matrice de confusion :}{29}{section*.69}%
+\contentsline {paragraph}{Analyse de la courbe d’apprentissage :}{29}{section*.70}%
+\contentsline {paragraph}{Interprétation :}{29}{section*.71}%
+\contentsline {subsection}{\numberline {4.1.4}Résumé comparatif et tendances}{30}{subsection.4.1.4}%
+\contentsline {paragraph}{Observation générale :}{30}{section*.73}%
+\contentsline {paragraph}{Lecture stratégique des résultats :}{31}{section*.74}%
+\contentsline {section}{\numberline {4.2}Discussion}{31}{section.4.2}%
+\contentsline {paragraph}{Au niveau service.}{31}{section*.76}%
+\contentsline {paragraph}{Au niveau application.}{32}{section*.77}%
+\contentsline {chapter}{\numberline {5}Conclusion}{34}{chapter.5}%
